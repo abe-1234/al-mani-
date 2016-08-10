@@ -30,7 +30,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12">
            
              <p ><small>The programme available is:</small>
-              <p>
+              
 			  <div class="table-responsive">
                <table class="table table-hover">
 			    <thead>
@@ -49,7 +49,7 @@
 				</tbody>
 			   </table>
 			  </div>
-			  </p>
+			  
 		   </p></br>
 		   
             <p><small>Keys:</small>
@@ -58,7 +58,7 @@
                 <li>PT-Part Time</li>
               </ul></p>
             </p></br>
-			<p><small>Last Updated:&nbsp 04 March 2016</em></p>
+			<p><small>Last Updated:&nbsp 04 March 2016</small></p>
 			
 		</div>
 	   </div>
@@ -92,7 +92,7 @@
 				</thead>
 				<tbody>
 				  <tr  >
-					<td><a href="#" target="_blank"><u>BSc (Hons) Financial Services with Law</u>/a></td>
+					<td><a href="#" target="_blank"><u>BSc (Hons) Financial Services with Law</u></a></td>
 					<td>Ft/Pt</td>
 					<td>3 yrs/4 yrs</td>
 				  </tr>
@@ -196,7 +196,7 @@
                 <li>PT-Part Time</li>
               </ul></p>
             </p></br>
-			<p><small>Last Updated:&nbsp 18 March 2016</em></p>
+			<p><small>Last Updated:&nbsp 18 March 2016</small></p>
 			
 		</div>
 	   </div></br></br>
@@ -361,7 +361,7 @@
                 <li>PT-Part Time</li>
               </ul></p>
             </p></br>
-			<p><small>Last Updated:&nbsp 24 March 2016</em></p>
+			<p><small>Last Updated:&nbsp 24 March 2016</small></p>
 			
 		</div>
 	   </div></br></br>
@@ -561,7 +561,7 @@
                 <li>PT-Part Time</li>
               </ul></p>
             </p></br>
-			<p><small>Last Updated:&nbsp 17 Feb 2016</em></p>
+			<p><small>Last Updated:&nbsp 17 Feb 2016</small></p>
 			
 		</div>
 	   </div>

@@ -94,7 +94,7 @@
                   </ul>
                 </li>
 
-                <li class="active"><a data-toggle="tooltip" data-placement="bottom" title="Log-in"  href="#"><i class="fa fa-sign-in"></i></a></li>
+                <li class="active"><a data-toggle="tooltip" data-placement="bottom" title="Log-in"  href="login.php"><i class="fa fa-sign-in"></i></a></li>
 
                         
               </ul>           

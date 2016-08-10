@@ -11,7 +11,7 @@
   <body>    
 
   <?php include("menu.php");?>
-  </br></br>
+  </br></br></br>
    <!--=========== BEGIN ABOUT US SECTION ================-->
     <section id="ourCourses">
       <div class="container">
@@ -30,16 +30,17 @@
             <p style="text-decoration:underline;" ><a href="volontariat.zip"><u>Please click here for more information.</u></p>
 			
 		</div>
+		
 	   </div>
 		
         </div>
         
       </div>
-      
+      </br></br></br></br></br></br>
     </section>
     <!--=========== END ABOUT US SECTION ================--> 
 
-    
+   
     <?php include("footer.php");?>
 
   
