@@ -99,7 +99,7 @@
             </p>
 
             <p>
-              Click <a href="StaffSSDT.php"><span>here</span></a> to access the <strong>Staff List</strong> of SBMF.
+              Click <a href="StaffSBMF.php"><span>here</span></a> to access the <strong>Staff List</strong> of SBMF.
             </p>
 
 

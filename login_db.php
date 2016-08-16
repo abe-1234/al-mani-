@@ -1,5 +1,6 @@
 <?php
-include_ONCE("db.php");
+
+include_once("db.php");
 
 $user = mysqli_real_escape_string($mysqli,$_POST["user"]);
 $pass = mysqli_real_escape_string($mysqli,$_POST["pass"]);
@@ -33,7 +34,7 @@ if(($type !== "Admin")& ($type !== "Lecturer") & ($type !== "Student")&(!$user)&
  }
  
  else{
-	 
+	   session_start();
 	 if($chkremm == true)
     {
 	  echo setcookie("username",$user,time()+(10*365*24*60*60));
@@ -55,7 +56,7 @@ if(($type !== "Admin")& ($type !== "Lecturer") & ($type !== "Student")&(!$user)&
 		
 		 if(($num > 0) &(password_verify($hashed_pw,$db_field['Tpassword']))) 
 		 {
-			session_start();
+			
 			$_SESSION["login"] = true;
 			$_SESSION["id"] = $db_field["Tutor_ID"];
 			echo"<script>window.location.href = '../Lecturer/home.php';</script>";
@@ -72,9 +73,9 @@ if(($type !== "Admin")& ($type !== "Lecturer") & ($type !== "Student")&(!$user)&
 		$num = mysqli_num_rows($result);
 		$db_field = mysqli_fetch_assoc($result);
 		
-		 if(($num > 0) &(password_verify($hashed_pw,$db_field['Apassword']))) 
+		 if(($num > 0) &(password_verify($hashed_pw,$db_field['APassword']))) 
 		 {
-			session_start();
+			
 			$_SESSION["login"] = true;
 			$_SESSION["id"] = $db_field["A_ID"];
 			echo"<script>window.location.href = '../Admin/home.php';</script>";
